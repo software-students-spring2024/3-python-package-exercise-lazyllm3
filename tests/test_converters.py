@@ -4,10 +4,9 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-
+# Test Case for Length
 from unit_conversion_toolkit.converters import convert_length
 
-# Test Case for Length
 def test_convert_length_meters_to_kilometers():
     assert convert_length(1000, 'meter', 'kilometer') == 1
 
@@ -62,3 +61,26 @@ def test_convert_temperature_fahrenheit_to_kelvin():
 def test_convert_temperature_kelvin_to_fahrenheit():
     assert convert_temperature(273.15, 'kelvin', 'fahrenheit') == 32
 
+# Test Case for Time
+from unit_conversion_toolkit.converters import convert_time
+
+def test_convert_time_minutes_to_hours():
+    assert convert_time(60, 'minute', 'hour') == 1
+
+def test_convert_time_hours_to_days():
+    assert convert_time(24, 'hour', 'day') == 1
+
+def test_convert_time_minutes_to_days():
+    assert convert_time(1440, 'minute', 'day') == 1
+
+# Test Case for Area
+from unit_conversion_toolkit.converters import convert_area
+
+def test_convert_area_square_meters_to_square_yards():
+    assert round(convert_area(1, 'square_meter', 'square_yard'), 5) == round(1 / 0.836127, 5)
+
+def test_convert_area_square_yards_to_square_meters():
+    assert round(convert_area(1, 'square_yard', 'square_meter'), 5) == round(0.836127, 5)
+
+def test_convert_area_square_meters_to_square_foot():
+    assert round(convert_area(1, 'square_meter', 'square_foot'), 5) == round(1 / 0.092903, 5)
