@@ -4,10 +4,8 @@
 def convert_length(value, from_unit, to_unit):
     # Define the conversion rates to meters
     to_meter = {"meter": 1, "kilometer": 1000, "mile": 1609.34}
-    
     # Convert the value to meters first
     value_in_meters = value * to_meter[from_unit]
-    
     # Now convert from meters to the target unit
     return value_in_meters / to_meter[to_unit]
 
@@ -45,3 +43,18 @@ def convert_temperature(value, from_scale, to_scale):
         elif to_scale == "fahrenheit":
             return round(value * 9 / 5 - 459.67, 2)
 
+# function 5
+def convert_time(value, from_unit, to_unit):
+    # Conversion factors to minutes
+    to_minute = {"minute": 1, "hour": 60, "day": 1440}
+    value_in_minutes = value * to_minute[from_unit]
+    # Conversion factor needs to be inverted to convert from minutes to the target unit
+    return value_in_minutes / to_minute[to_unit]
+
+# function 6
+def convert_area(value, from_unit, to_unit):
+    # Conversion factors to square meters
+    to_square_meter = {"square_meter": 1, "square_yard": 0.836127, "square_foot": 0.092903}
+    value_in_square_meters = value * to_square_meter[from_unit]
+    # Conversion factor needs to be inverted to convert from square meters to the target unit
+    return value_in_square_meters / to_square_meter[to_unit]

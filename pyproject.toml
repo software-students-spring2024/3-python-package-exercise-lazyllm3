@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unit_conversion_toolkit"
+version = "0.1.0"
+description = "A package for converting various units of measurement, developed with pyenv, built with build using setuptools, uploaded to PyPI using twine, and distributed via pip."
+authors = [{ name = "Haoyang Li", email = "hl3951@nyu.edu"}, { name = "Ruichen Wang", email = "rw2671@nyu.edu"}, { name = "Weilin Cheng", email = "wc2182@nyu.edu"}, { name = "Angle Wu", email = "cw3561@nyu.edu"}]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "unit", "converter"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3"
+"Repository" = "https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3.git"
+"Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/issues"
