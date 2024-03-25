@@ -1,3 +1,9 @@
-# Python Package Exercise
+# Unit Conversion Toolkit
 
-An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+
+# Installation
+
+1. Clone the repositary
+
+```markdown
+git clone https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/
