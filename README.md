@@ -15,4 +15,4 @@ git clone https://github.com/software-students-spring2024/3-python-package-exerc
 
 ## Link to Example Python Program
 
-(https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/blob/Angel/__main__.py "Example_Program")
+[Example Program](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/blob/Angel/__main__.py) 
