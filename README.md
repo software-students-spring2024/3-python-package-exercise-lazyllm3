@@ -1,4 +1,4 @@
-![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/actions/workflows/WORKFLOW-FILE/badge.svg)
+![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/actions/workflows/main.yml/badge.svg)
 # Unit Conversion Toolkit
 Conversion of units is the conversion of the unit of measurement in which a quantity is expressed, typically through a multiplicative conversion factor that changes the unit without changing the quantity. This is also often loosely taken to include replacement of a quantity with a corresponding quantity that describes the same physical property. [Source: Wiki](https://en.wikipedia.org/wiki/Conversion_of_units).<br />Our project is designed to swiftly and accurately convert between a wide array of measurement units across categories like length, weight, volume, temperature, time, and area, streamlining both professional tasks and everyday calculations.<br />
 
