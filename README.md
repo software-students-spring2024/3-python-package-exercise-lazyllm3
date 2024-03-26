@@ -5,7 +5,7 @@ Conversion of units is the conversion of the unit of measurement in which a quan
 
 1. Download package:
 ```
-pipenv install -i https://test.pypi.org/project/unit-conversion-toolkit/0.1.1/
+pip install -i https://test.pypi.org/simple/ unit-conversion-toolkit==0.1.1
 ```
 2. Activate the virtual environment: 
 ```
@@ -13,11 +13,11 @@ pipenv shell
 ```
 3. Create a Python program file that imports the package and uses it, e.g. 
 ```python
-from converters import convert_length, convert_weight, convert_volume, convert_temperature, convert_time, convert_area
+from unit_conversion_toolkit import converters
 ```
 4. and then call the functions, for example:
 ```python
-uct.convert_length(5, 'kilometer', 'mile')
+print(converters.convert_length(5, 'kilometer', 'mile'))
 ```
 
 ## Functions
