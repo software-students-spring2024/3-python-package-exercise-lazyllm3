@@ -1,3 +1,4 @@
+![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/actions/workflows/python-package.yml/badge.svg)
 # Unit Conversion Toolkit
 Conversion of units is the conversion of the unit of measurement in which a quantity is expressed, typically through a multiplicative conversion factor that changes the unit without changing the quantity. This is also often loosely taken to include replacement of a quantity with a corresponding quantity that describes the same physical property. [Source: Wiki](https://en.wikipedia.org/wiki/Conversion_of_units).<br />Our project is designed to swiftly and accurately convert between a wide array of measurement units across categories like length, weight, volume, temperature, time, and area, streamlining both professional tasks and everyday calculations.<br />
 
@@ -99,7 +100,7 @@ pipenv run pytest
 https://test.pypi.org/project/unit-conversion-toolkit/0.1.1/
 
 ## Contributors
-1. [Angel Wu (Net Id: cw3561)](https://github.com/angelWu2002)	
-2. [Weilin Cheng (Net Id: wc2182)](https://github.com/M1stery232)
-3. [Ruichen Wang (Net Id: rw2671)](https://github.com/rcwang937)	
-4. [Haoyang Li (Net Id: hl3951)](https://github.com/LeoLi727)	
+1. [Angel Wu](https://github.com/angelWu2002)	
+2. [Weilin Cheng](https://github.com/M1stery232)
+3. [Ruichen Wang](https://github.com/rcwang937)	
+4. [Haoyang Li](https://github.com/LeoLi727)	
