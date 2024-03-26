@@ -3,9 +3,9 @@ Conversion of units is the conversion of the unit of measurement in which a quan
 
 ## Installation
 
-1. Create a `pipenv`-managed virtual environment and install the latest version of the package installed: 
+1. Download package:
 ```
-pipenv install -i https://pypi.org/simple/ asciiarttools
+pipenv install -i https://test.pypi.org/project/unit-conversion-toolkit/0.1.1/
 ```
 2. Activate the virtual environment: 
 ```
@@ -13,9 +13,9 @@ pipenv shell
 ```
 3. Create a Python program file that imports the package and uses it, e.g. 
 ```python
-from asciiarttools import asciiarttools
+from converters import convert_length, convert_weight, convert_volume, convert_temperature, convert_time, convert_area
 ```
-and then call the functions, for example:
+4. and then call the functions, for example:
 ```python
 uct.convert_length(5, 'kilometer', 'mile')
 ```
@@ -67,6 +67,27 @@ Designed for the conversion of area measurements, this function supports units s
 
 ```bash
 git clone https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/
+```
+2. Set up the environment
+```
+pipenv shell
+```
+3. Install build
+```
+pipenv install build
+```
+4. Modify the code
+5. To build the package, run the following command:
+```
+pipenv run python -m build
+```
+6. Install pytest
+```
+pipenv install pytest
+```
+7. To test the package, run the following command:
+```
+pipenv run pytest
 ```
 
 
