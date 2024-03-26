@@ -17,7 +17,7 @@ from asciiarttools import asciiarttools
 ```
 and then call the functions, for example:
 ```python
-asciiarttools.convertImageToAsciiImage('cat1.jpg', 'output.png')
+uct.convert_length(5, 'kilometer', 'mile')
 ```
 
 ## Functions
