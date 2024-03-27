@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "unit_conversion_toolkit"
-version = "0.1.1"
+version = "0.1.2"
 description = "A package for converting various units of measurement, developed with pyenv, built with build using setuptools, uploaded to PyPI using twine, and distributed via pip."
 authors = [{ name = "Haoyang Li", email = "hl3951@nyu.edu"}, { name = "Ruichen Wang", email = "rw2671@nyu.edu"}, { name = "Weilin Cheng", email = "wc2182@nyu.edu"}, { name = "Angle Wu", email = "cw3561@nyu.edu"}]
 license = { file = "LICENSE" }

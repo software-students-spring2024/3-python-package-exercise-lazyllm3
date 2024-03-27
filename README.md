@@ -6,7 +6,7 @@ Conversion of units is the conversion of the unit of measurement in which a quan
 
 1. Download package:
 ```
-pip install -i https://test.pypi.org/simple/ unit-conversion-toolkit==0.1.1
+pip install -i https://test.pypi.org/simple/ unit-conversion-toolkit==0.1.2
 ```
 2. Activate the virtual environment: 
 ```
@@ -144,7 +144,7 @@ pipenv run pytest
 [Example_Program](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/blob/Angel/__main__.py) 
 
 ## Link to package's page on the PyPI website
-https://test.pypi.org/project/unit-conversion-toolkit/0.1.1/
+https://test.pypi.org/project/unit-conversion-toolkit/0.1.2/
 
 ## Contributors
 1. [Angel Wu](https://github.com/angelWu2002)	
