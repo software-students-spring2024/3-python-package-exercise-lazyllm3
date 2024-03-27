@@ -5,10 +5,18 @@ Conversion of units is the conversion of the unit of measurement in which a quan
 ## Installation
 
 1. Download package:
+
+- Regular pip install
 ```
-pip install -i https://test.pypi.org/simple/ unit-conversion-toolkit==0.1.2
+pip install -i https://test.pypi.org/simple/ unit-conversion-toolkit==0.1.3
 ```
-2. Activate the virtual environment: 
+
+- OR with virtual envirnoment 
+```
+pipenv install -i https://test.pypi.org/simple/ unit-conversion-toolkit==0.1.3
+```
+
+2. Activate the virtual environment (if needed): 
 ```
 pipenv shell
 ```
@@ -141,10 +149,10 @@ pipenv run pytest
 
 ## Link to Example Python Program
 
-[Example_Program](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/blob/Angel/__main__.py) 
+[Example_Program](https://github.com/software-students-spring2024/3-python-package-exercise-lazyllm3/blob/main/unit_conversion_toolkit/__main__.py) 
 
 ## Link to package's page on the PyPI website
-https://test.pypi.org/project/unit-conversion-toolkit/0.1.2/
+https://test.pypi.org/project/unit-conversion-toolkit/0.1.3/
 
 ## Contributors
 1. [Angel Wu](https://github.com/angelWu2002)	
